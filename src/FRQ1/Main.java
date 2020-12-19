@@ -1,3 +1,7 @@
+package FRQ1;
+
+import FRQ1.LightSequence;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -7,7 +11,7 @@ public class Main {
 
         gradShow.changeSequence("0011 0011 0011");
 
-        gradShow.insertSegment( "1111 1111", 4);
+        String resultSeg = gradShow.insertSegment( "1111 1111", 4);
 
         //testing removing code segment
         gradShow.alterSeg("11000011", "11");

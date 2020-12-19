@@ -1,5 +1,7 @@
+package FRQ1;
+
 import java.awt.*;
-import java.math.*;
+
 public class LightSequence {
 
 
@@ -26,7 +28,7 @@ public class LightSequence {
     public String insertSegment(String segment, int ind) {
 
          /* implementation not shown */
-        return "";
+        return segment;
     }
 
     /** Updates the sequence to the value in seq
@@ -57,6 +59,8 @@ public class LightSequence {
         String newSeg = oldSeg.replaceFirst(Seg, "");
 
         System.out.println(newSeg); //used for testing purposes
+
+
 
     }
 

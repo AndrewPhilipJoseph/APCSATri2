@@ -34,7 +34,7 @@ a String variable named option2
      */
 
     public void hasRSVP() {
-        if (rsvp == true) {
+        if (rsvp) {
             System.out.println("Attending");
         }
         else {
@@ -43,7 +43,7 @@ a String variable named option2
     }
 
     public void store() {
-        if (rsvp == true) {
+        if (rsvp) {
             this.option1 = "Thanks for attending, you will be served" + food1;
         }
         else {

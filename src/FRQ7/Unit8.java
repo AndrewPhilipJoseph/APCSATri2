@@ -26,7 +26,7 @@ class Plot
     }
 }
 
-public class ExperimentalFarm
+class ExperimentalFarm
 {
     private Plot[][] farmPlots;
 
